@@ -1,0 +1,24 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "Building Web Applications with Node.js and Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John-Cassidy/node-express.git"
+  },
+  "author": "John Cassidy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/John-Cassidy/node-express/issues"
+  },
+  "homepage": "https://github.com/John-Cassidy/node-express#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "express": "^4.17.1"
+  }
+}
