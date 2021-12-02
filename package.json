@@ -19,9 +19,13 @@
   "homepage": "https://github.com/John-Cassidy/node-express#readme",
   "dependencies": {
     "chalk": "^4.1.1",
+    "cookie-parser": "^1.4.6",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "mongodb": "^4.2.1"
+    "express-session": "^1.17.2",
+    "mongodb": "^4.2.1",
+    "passport": "^0.5.0",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

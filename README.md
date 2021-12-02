@@ -55,3 +55,5 @@ npm i mongodb
 
 ## securing application
 
+npm i passport cookie-parser express-session
+npm i passport-local

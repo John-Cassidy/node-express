@@ -3,6 +3,16 @@ const { MongoClient, ObjectID } = require('mongodb');
 
 const sessionsRouter = express.Router();
 
+// middleware to check if user is signed in
+// if not redirect to signin page
+sessionsRouter.use((req, res, next) => {
+  if (req.user) {
+    next();
+  } else {
+    res.redirect('/auth/signIn');
+  }
+});
+
 sessionsRouter.route('/').get((req, res) => {
   const url = 'mongodb://localhost:27017';
   const dbName = 'globomantics';
