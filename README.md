@@ -2,7 +2,7 @@
 
 Building Web Applications with Node.js and Express
 
-### Mongo
+## Mongo
 
 setup MongoDB in docker container. [Official docker image](https://hub.docker.com/_/mongo)
 
@@ -10,7 +10,7 @@ docker pull mongo
 
 docker run -d -p 27017:27017 --name globomantics-mongo mongo
 
-#### Run interactive terminal in mongodb (Powershell)
+### Run interactive terminal in mongodb (Powershell)
 
 docker exec -it globomantics-mongo /bin/bash
 ls
@@ -46,9 +46,12 @@ setup MongoDB Client docker container. [Official docker image](https://hub.docke
 
 docker run -d -p 3000:3000 mongoclient/mongoclient
 
-#### add mongodb package
+### add mongodb package
 
 npm i mongodb
 
 - 4.2.1
 - v3.6.6
+
+## securing application
+
