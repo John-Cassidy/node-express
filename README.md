@@ -57,3 +57,9 @@ npm i mongodb
 
 npm i passport cookie-parser express-session
 npm i passport-local
+
+## create speakerService to call API with axios using revealing module pattern
+
+npm i axios
+
+### TODO: create API project
